@@ -9,7 +9,7 @@ function WhoList_Update()
 	local displayedText = ""
 	if numWhos >= 49 then 
 		displayedText = format(WHO_FRAME_SHOWN_TEMPLATE, numWhos)
-		WhoFrameTotals:SetText(format(GetText("WHO_FRAME_TOTAL_TEMPLATE", nil, totalCount), totalCount).."  ".."(49+ displayed)")
+		WhoFrameTotals:SetText(format(GetText("WHO_FRAME_TOTAL_TEMPLATE", nil, totalCount), totalCount).."  ".."(49+ found)")
 	else
 		displayedText = format(WHO_FRAME_SHOWN_TEMPLATE, numWhos)
 		WhoFrameTotals:SetText(format(GetText("WHO_FRAME_TOTAL_TEMPLATE", nil, totalCount), totalCount).."  "..displayedText)

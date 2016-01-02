@@ -1,5 +1,8 @@
 ## Interface: 11200
 ## Title: WhoList_Fix
+## Author: |cffABD473Random @ nostalrius.org
+## Version: 1.0
+## Notes: Fix for Who List - by |cff00FF00Renew |r@ nostalrius.org
 ## DefaultState: Enabled
 ## LoadOnDemand: 0
 
