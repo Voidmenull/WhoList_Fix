@@ -1,0 +1,6 @@
+## Interface: 11200
+## Title: WhoList_Fix
+## DefaultState: Enabled
+## LoadOnDemand: 0
+
+WhoList_Fix.lua
